@@ -83,7 +83,7 @@ const TextosIngles = [
 
 
 
-export default function hola(){
+export default function PaginaPrincipal(){
 
 
 
