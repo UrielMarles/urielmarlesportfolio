@@ -141,20 +141,24 @@ export default function PaginaPrincipal(){
     }
   };
 
-
-
-  useEffect(AnimarFondo,[]);
-
   useEffect(() => {
+  
+    document.body.style.zoom = 0.7;
+
     const manejarCambioDeTamaño = () => {
       clearTimeout(window.resizeTimeout);
       window.resizeTimeout = setTimeout(() => {
         window.location.reload();
+        
       }, 10);
     };
 
     window.addEventListener('resize', manejarCambioDeTamaño);
+    AnimarFondo()
+    
   }, []);
+
+
 
 return (<>
 <canvas id="bg"></canvas>   
