@@ -143,7 +143,7 @@ export default function PaginaPrincipal(){
 
   useEffect(() => {
   
-    document.body.style.zoom = 0.7;
+    document.body.style.zoom = 0.8;
 
     const manejarCambioDeTamaño = () => {
       clearTimeout(window.resizeTimeout);

@@ -12,7 +12,7 @@ export default function AnimarFondo(){
   renderer.toneMappingExposure = 0.5;
   
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setSize(window.innerWidth * 1.45, window.innerHeight*1.45);
+  renderer.setSize(window.innerWidth * 1.35, window.innerHeight*1.35);
   camera.position.setZ(30);
   camera.position.setX(-3);
   renderer.render(scene, camera);

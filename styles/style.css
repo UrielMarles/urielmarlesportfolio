@@ -88,10 +88,11 @@ header {
   font-size: 2.5rem;
   padding: 2rem;
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
   text-align: center; /* Centra el texto horizontalmente */
   line-height: 4rem; /* Ajusta la altura de línea para centrar verticalmente el texto */
   border-radius: 15px;
+
 }
 header h1{
   font-size: 3.5rem;
