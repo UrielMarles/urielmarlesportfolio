@@ -3,29 +3,19 @@
 body {
   overflow-x: hidden;
 }
-
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .switchContainer {
   margin-left: 10px;
 }
-
 canvas {
   position: fixed;
   top: 0;
   left: 0;
 }
-
-
-:root {
-  --dark-bg: rgba(15, 15, 15, 0.95);
-  --spacing: 200px;
-}
-
 main {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
@@ -41,13 +31,11 @@ main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-
 canvas {
   position: fixed;
   top: 0;
   left: 0;
 }
-
 .contact{
   font-size: medium;
   display: flex;
@@ -57,19 +45,16 @@ canvas {
   transition: transform 0.3s ease-in-out;
   margin: 20px;
 }
-
 .contact .contactImage :hover{
   transform: scale(0.95);
   cursor: pointer;
 }
-
 .contact .contactImage{
   vertical-align: middle;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.74);
   padding: 10px;
 }
-
 work {
   margin-top: 20px;
   display: flex;
@@ -81,12 +66,10 @@ work {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
-
 work:hover {
   transform: scale(0.95);
   cursor: pointer;
 }
-
 work .transparent{
   background-color: rgba(15, 15, 15, 0.95);
   color: white;
@@ -99,10 +82,8 @@ work .transparent{
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.74);
 }
-
-
 header {
-  background: var(--dark-bg);
+  background: rgba(15, 15, 15, 0.95);
   grid-column: 2 / 7;
   font-size: 2.5rem;
   padding: 2rem;
@@ -112,25 +93,22 @@ header {
   line-height: 4rem; /* Ajusta la altura de línea para centrar verticalmente el texto */
   border-radius: 15px;
 }
-
 header h1{
   font-size: 3.5rem;
 }
-
 section {
   grid-column: 2 / 10;
   padding: 1rem;
-  background: var(--dark-bg);
+  background: rgba(15, 15, 15, 0.95);
   font-size: 1.5rem;
   line-height: 1.8;
   margin-top: 200px;
-  margin-bottom: var(--spacing);
+  margin-bottom: 200px;
   border-radius: 40px;
   opacity: 0;
   transform: translateX(-300px);
   transition: opacity 1s, transform 2s;
 }
-
 section h1 {
   margin: 30px;
   margin-bottom: 40px;
@@ -139,20 +117,16 @@ section h1 {
   text-decoration: underline;
   font-weight: bold;
 }
-
 section h3{
   padding: 20px;
 }
-
 .left {
   grid-column: 4 / 12;
   transform: translateX(300px);
 }
-
 .center{
   align-items: center;
   margin-top: 0px;
-
   padding: 75px;
   padding-top: 30px;
   grid-column: 4/10;
@@ -161,25 +135,19 @@ section h3{
   border: 20px white;
 
 }
-
 .visible .center{
   transform: translateY(0);
 }
-
 .visible {
   opacity: 1;
   transform: translateX(0);
 }
-
-
-
 tituloBlanco {
   margin: 0;
   padding: 0;
   grid-column: 2 / span 9;
   margin-bottom: 200px;
 }
-
 tituloBlanco p {
   color: black;
   background-color: rgba(255, 255, 255, 0.74);
@@ -189,7 +157,6 @@ tituloBlanco p {
   border-radius: 15px;
   margin-bottom: 200px;
 }
-
 .component3 {
   grid-column: span 12; /* El tercer componente ocupa las 12 columnas */
   margin-top: 20px; /* Espacio entre el componente superior y el componente3 */
